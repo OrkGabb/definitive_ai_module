@@ -1,0 +1,8 @@
+{
+    "boot_count": 1,
+    "last_mode": "undefined",
+    "last_temperature": null,
+    "last_cpu_avg": null,
+    "last_adjustment_applied": null,
+    "timestamp": "auto-fill by brain.py"
+}

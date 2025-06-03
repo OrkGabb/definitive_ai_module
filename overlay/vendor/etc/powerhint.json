@@ -1,0 +1,13 @@
+{
+  "interactive": {
+    "timer_rate": 30000,
+    "min_sample_time": 40000,
+    "hispeed_freq": "1500000",
+    "go_hispeed_load": 85
+  },
+  "boost": {
+    "launch": true,
+    "duration": 500,
+    "freq": "1700000"
+  }
+}

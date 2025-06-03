@@ -1,0 +1,602 @@
+[
+  {
+    "name": "ajuste_1",
+    "efficiency": 1.03,
+    "latency": 0.048,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_2",
+    "efficiency": 1.06,
+    "latency": 0.044,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_3",
+    "efficiency": 1.06,
+    "latency": 0.042,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_4",
+    "efficiency": 1.09,
+    "latency": 0.038,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_5",
+    "efficiency": 1.12,
+    "latency": 0.051,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_6",
+    "efficiency": 1.12,
+    "latency": 0.047,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_7",
+    "efficiency": 1.15,
+    "latency": 0.045,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_8",
+    "efficiency": 1.18,
+    "latency": 0.041,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_9",
+    "efficiency": 1.18,
+    "latency": 0.039,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_10",
+    "efficiency": 1.01,
+    "latency": 0.05,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_11",
+    "efficiency": 1.04,
+    "latency": 0.048,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_12",
+    "efficiency": 1.04,
+    "latency": 0.044,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_13",
+    "efficiency": 1.07,
+    "latency": 0.042,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_14",
+    "efficiency": 1.1,
+    "latency": 0.038,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_15",
+    "efficiency": 1.1,
+    "latency": 0.051,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_16",
+    "efficiency": 1.13,
+    "latency": 0.047,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_17",
+    "efficiency": 1.16,
+    "latency": 0.045,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_18",
+    "efficiency": 1.16,
+    "latency": 0.041,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_19",
+    "efficiency": 1.19,
+    "latency": 0.039,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_20",
+    "efficiency": 1.02,
+    "latency": 0.05,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_21",
+    "efficiency": 1.02,
+    "latency": 0.048,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_22",
+    "efficiency": 1.05,
+    "latency": 0.044,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_23",
+    "efficiency": 1.08,
+    "latency": 0.042,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_24",
+    "efficiency": 1.08,
+    "latency": 0.038,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_25",
+    "efficiency": 1.11,
+    "latency": 0.051,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_26",
+    "efficiency": 1.14,
+    "latency": 0.047,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_27",
+    "efficiency": 1.14,
+    "latency": 0.045,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_28",
+    "efficiency": 1.17,
+    "latency": 0.041,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_29",
+    "efficiency": 1.2,
+    "latency": 0.039,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_30",
+    "efficiency": 1.0,
+    "latency": 0.05,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_31",
+    "efficiency": 1.03,
+    "latency": 0.048,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_32",
+    "efficiency": 1.06,
+    "latency": 0.044,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_33",
+    "efficiency": 1.06,
+    "latency": 0.042,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_34",
+    "efficiency": 1.09,
+    "latency": 0.038,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_35",
+    "efficiency": 1.12,
+    "latency": 0.051,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_36",
+    "efficiency": 1.12,
+    "latency": 0.047,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_37",
+    "efficiency": 1.15,
+    "latency": 0.045,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_38",
+    "efficiency": 1.18,
+    "latency": 0.041,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_39",
+    "efficiency": 1.18,
+    "latency": 0.039,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_40",
+    "efficiency": 1.01,
+    "latency": 0.05,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_41",
+    "efficiency": 1.04,
+    "latency": 0.048,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_42",
+    "efficiency": 1.04,
+    "latency": 0.044,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_43",
+    "efficiency": 1.07,
+    "latency": 0.042,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_44",
+    "efficiency": 1.1,
+    "latency": 0.038,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_45",
+    "efficiency": 1.1,
+    "latency": 0.051,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_46",
+    "efficiency": 1.13,
+    "latency": 0.047,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_47",
+    "efficiency": 1.16,
+    "latency": 0.045,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_48",
+    "efficiency": 1.16,
+    "latency": 0.041,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_49",
+    "efficiency": 1.19,
+    "latency": 0.039,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_50",
+    "efficiency": 1.02,
+    "latency": 0.05,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_51",
+    "efficiency": 1.02,
+    "latency": 0.048,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_52",
+    "efficiency": 1.05,
+    "latency": 0.044,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_53",
+    "efficiency": 1.08,
+    "latency": 0.042,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_54",
+    "efficiency": 1.08,
+    "latency": 0.038,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_55",
+    "efficiency": 1.11,
+    "latency": 0.051,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_56",
+    "efficiency": 1.14,
+    "latency": 0.047,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_57",
+    "efficiency": 1.14,
+    "latency": 0.045,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_58",
+    "efficiency": 1.17,
+    "latency": 0.041,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_59",
+    "efficiency": 1.2,
+    "latency": 0.039,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_60",
+    "efficiency": 1.0,
+    "latency": 0.05,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_61",
+    "efficiency": 1.03,
+    "latency": 0.048,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_62",
+    "efficiency": 1.06,
+    "latency": 0.044,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_63",
+    "efficiency": 1.06,
+    "latency": 0.042,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_64",
+    "efficiency": 1.09,
+    "latency": 0.038,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_65",
+    "efficiency": 1.12,
+    "latency": 0.051,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_66",
+    "efficiency": 1.12,
+    "latency": 0.047,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_67",
+    "efficiency": 1.15,
+    "latency": 0.045,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_68",
+    "efficiency": 1.18,
+    "latency": 0.041,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_69",
+    "efficiency": 1.18,
+    "latency": 0.039,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_70",
+    "efficiency": 1.01,
+    "latency": 0.05,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_71",
+    "efficiency": 1.04,
+    "latency": 0.048,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_72",
+    "efficiency": 1.04,
+    "latency": 0.044,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_73",
+    "efficiency": 1.07,
+    "latency": 0.042,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_74",
+    "efficiency": 1.1,
+    "latency": 0.038,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_75",
+    "efficiency": 1.1,
+    "latency": 0.051,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_76",
+    "efficiency": 1.13,
+    "latency": 0.047,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_77",
+    "efficiency": 1.16,
+    "latency": 0.045,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_78",
+    "efficiency": 1.16,
+    "latency": 0.041,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_79",
+    "efficiency": 1.19,
+    "latency": 0.039,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_80",
+    "efficiency": 1.02,
+    "latency": 0.05,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_81",
+    "efficiency": 1.02,
+    "latency": 0.048,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_82",
+    "efficiency": 1.05,
+    "latency": 0.044,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_83",
+    "efficiency": 1.08,
+    "latency": 0.042,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_84",
+    "efficiency": 1.08,
+    "latency": 0.038,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_85",
+    "efficiency": 1.11,
+    "latency": 0.051,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_86",
+    "efficiency": 1.14,
+    "latency": 0.047,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_87",
+    "efficiency": 1.14,
+    "latency": 0.045,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_88",
+    "efficiency": 1.17,
+    "latency": 0.041,
+    "thermal": 1.04
+  },
+  {
+    "name": "ajuste_89",
+    "efficiency": 1.2,
+    "latency": 0.039,
+    "thermal": 1.03
+  },
+  {
+    "name": "ajuste_90",
+    "efficiency": 1.0,
+    "latency": 0.05,
+    "thermal": 0.96
+  },
+  {
+    "name": "ajuste_91",
+    "efficiency": 1.03,
+    "latency": 0.048,
+    "thermal": 0.95
+  },
+  {
+    "name": "ajuste_92",
+    "efficiency": 1.06,
+    "latency": 0.044,
+    "thermal": 1.02
+  },
+  {
+    "name": "ajuste_93",
+    "efficiency": 1.06,
+    "latency": 0.042,
+    "thermal": 1.01
+  },
+  {
+    "name": "ajuste_94",
+    "efficiency": 1.09,
+    "latency": 0.038,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_95",
+    "efficiency": 1.12,
+    "latency": 0.051,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_96",
+    "efficiency": 1.12,
+    "latency": 0.047,
+    "thermal": 1.0
+  },
+  {
+    "name": "ajuste_97",
+    "efficiency": 1.15,
+    "latency": 0.045,
+    "thermal": 0.99
+  },
+  {
+    "name": "ajuste_98",
+    "efficiency": 1.18,
+    "latency": 0.041,
+    "thermal": 0.98
+  },
+  {
+    "name": "ajuste_99",
+    "efficiency": 1.18,
+    "latency": 0.039,
+    "thermal": 0.97
+  },
+  {
+    "name": "ajuste_100",
+    "efficiency": 1.01,
+    "latency": 0.05,
+    "thermal": 1.04
+  }
+]

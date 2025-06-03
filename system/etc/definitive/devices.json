@@ -1,0 +1,9 @@
+{
+  "Galaxy_M32": { "score": 58, "thermal": 1.0 },
+  "Redmi_10_2022": { "score": 50, "thermal": 1.05 },
+  "Poco_M5": { "score": 53, "thermal": 0.95 },
+  "Infinix_Zero_5G": { "score": 55, "thermal": 1.1 },
+  "Redmi_12C": { "score": 48, "thermal": 1.02 },
+  "Realme_Narzo_50": { "score": 52, "thermal": 1.0 },
+  "Galaxy_M127F_DS": { "score": 45, "thermal": 1.15 }
+}

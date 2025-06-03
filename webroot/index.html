@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DEFINITIVE.AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: black;
+      color: #00ffff;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      background-color: transparent;
+      color: #00ffff;
+      border: 2px solid #00ffff;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .btn.active {
+      background-color: #00ffff;
+      color: black;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 34px;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    input:checked + .slider {
+      background-color: #00ffff;
+    }
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+    #logs_output {
+      background-color: #111;
+      color: #0f0;
+      padding: 10px;
+      border: 1px solid #0ff;
+      border-radius: 10px;
+      margin-top: 20px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h1>DEFINITIVE.AI</h1>
+  <p>Otimização neural inteligente</p>
+  <button class="btn" onclick="sendCommand('ai_status')">Status</button>
+  <button class="btn" onclick="sendCommand('force_learn')">Aprendizado Forçado</button>
+  <button class="btn" onclick="sendCommand('ai_reset')">Reset</button>
+  <button class="btn" onclick="sendCommand('ai_debug')">Debug</button>
+  <br><br>
+  <label class="switch">
+    <input type="checkbox" id="dndToggle" onchange="sendCommand('ai_dnd_toggle')">
+    <span class="slider"></span>
+  </label>
+  <p>Modo Prioritário (DND)</p>
+  <pre id="logs_output">Log do comando aparecerá aqui</pre>
+
+  <script>
+    function sendCommand(cmd) {
+      fetch(`cgi-bin/webui_backend.sh?cmd=${encodeURIComponent(cmd)}`)
+        .then(response => {
+          if (!response.ok) throw new Error("Erro na resposta do backend");
+          return response.json();
+        })
+        .then(data => {
+          document.getElementById('logs_output').textContent = data.status || "Nenhuma resposta.";
+        })
+        .catch(error => {
+          document.getElementById('logs_output').textContent = "Erro ao executar comando.";
+          console.error("Erro:", error);
+        });
+    }
+  </script>
+</body>
+</html>

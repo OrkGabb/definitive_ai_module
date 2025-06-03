@@ -1,0 +1,7 @@
+{
+  "boot_performance": true,
+  "ai_learning_window": 60,
+  "gpu_boost": true,
+  "ged_optimizations": true,
+  "dimensity_detect": true
+}

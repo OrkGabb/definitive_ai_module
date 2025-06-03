@@ -1,0 +1,6 @@
+#!/system/bin/sh
+# Simulação de aprendizado forçado
+log -t DEFINITIVE.AI "Iniciando aprendizado forçado..."
+/system/bin/python3 /system/etc/definitive/brain.py --force-learn >> /data/definitive/logs/forced_learn.log 2>&1
+log -t DEFINITIVE.AI "Aprendizado forçado finalizado."
+exit 0
