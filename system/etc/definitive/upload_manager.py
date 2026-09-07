@@ -2,6 +2,7 @@
 
 import os
 import requests
+from base64 import b64encode
 
 def get_directory_size(path):
     total = 0
@@ -13,6 +14,9 @@ def get_directory_size(path):
     return total
 
 def upload_to_github(file_path, token, repo, branch="main"):
+    if not token:
+        print("[UploadManager] GITHUB_TOKEN not configured.")
+        return 401, "No token provided"
     headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github+json"
@@ -20,7 +24,6 @@ def upload_to_github(file_path, token, repo, branch="main"):
     filename = os.path.basename(file_path)
     with open(file_path, "rb") as f:
         content = f.read()
-    from base64 import b64encode
     data = {
         "message": f"Upload {filename}",
         "content": b64encode(content).decode(),
@@ -39,8 +42,9 @@ if not os.path.exists(data_dir):
 if get_directory_size(data_dir) > 100 * 1024 * 1024:
     zip_file = "/data/ai_cache_upload.zip"
     os.system(f"cd {data_dir} && zip -r {zip_file} .")
-    token = "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"
+    token = os.getenv("GITHUB_TOKEN", "")
     repo = "Gabriel6163/A.I-automatic-Updates"
-    code, resp = upload_to_github(zip_file, token, repo)
-    if code == 201:
-        os.system(f"rm -rf {data_dir}/*")
+    if token:
+        code, resp = upload_to_github(zip_file, token, repo)
+        if code == 201:
+            os.system(f"rm -rf {data_dir}/*")
